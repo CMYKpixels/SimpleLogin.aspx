@@ -1,0 +1,248 @@
+.login-body {
+  background-color: #1e3249;
+  background: no-repeat center fixed;
+  background-image: url(/img/bg4.jpg);
+  background-size: cover;
+  color: #34495e;
+  font-family: Montserrat;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.428571429;
+}
+
+.login-body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: radial-gradient(circle, transparent 50%, rgb(65, 36, 23) 150%);
+  mix-blend-mode: darken;
+  z-index: -1;
+}
+
+#falling-leaves {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.leave {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: cover;
+  filter: hue-rotate(20deg) saturate(200%);
+}
+
+#upLogin {
+  position: relative;
+  z-index: 1;
+}
+
+body label,
+body select {
+  font-weight: normal;
+  font-family: "Open Sans";
+  color: #34495e;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+  outline: none !important;
+  text-decoration: none;
+}
+
+a,
+.nav-tabs > li > a,
+.nav-tabs > li.link-new-cal > a {
+  color: rgba(77, 124, 254, 1);
+}
+input::placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+.m-autocenter {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.d-block {
+  display: block;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.v-align-middle {
+  vertical-align: middle;
+}
+.text-left {
+  text-align: left;
+}
+.pull-right {
+  float: right !important;
+}
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+.m-left-5 {
+  margin-left: 5px;
+}
+.m-left-10 {
+  margin-left: 10px;
+}
+.m-bottom-20 {
+  margin-bottom: 20px;
+}
+.m-bottom-25 {
+  margin-bottom: 25px !important;
+}
+.m-top-10 {
+  margin-top: 10px;
+}
+
+.login-top-bar {
+  padding: 15px;
+  position: relative;
+}
+
+.login-top-bar-w {
+  height: 100px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.2);
+}
+
+.login-top-bar > a.btn-myc {
+  border-radius: 0;
+  margin-top: 10px;
+  position: absolute;
+  right: 15px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+.btn-success,
+.btn-success:focus,
+.btn-success:hover,
+.btn-success[disabled] {
+  background: #00a46d;
+  border-radius: 0;
+}
+
+.btn-myc,
+.btn-myc:hover,
+.btn-myc:focus {
+  background: none;
+  border: 2px solid #c5cde2;
+  color: #fff;
+  z-index: 1;
+}
+
+.btn,
+.btn:hover {
+  border-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.master-top-bar-logo,
+.master-top-bar-logo-wizard {
+  width: 200px;
+  height: 70px;
+  background: url(https://static.elloha.com/elloha/Images/logo-elloha-fullwhite.png?v=4)
+    center center no-repeat;
+  background-size: 90%;
+}
+
+.ud-panel-login {
+  background: #f6f8fc;
+  display: block;
+  width: 455px;
+  margin: auto;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 11%;
+}
+
+.ud-panel-login > div {
+  padding: 35px 40px 0;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.login-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: Bold;
+  text-transform: uppercase;
+}
+
+.login-flag-list {
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.login-flag-list a {
+  color: #34495e;
+  font-size: 0.6em;
+}
+
+.login-flag-list img {
+  height: 18px;
+}
+
+.login-label-col {
+  height: 40px;
+  padding-top: 9px;
+  padding-right: 0;
+  text-align: left;
+  font-family: "open sans";
+  font-weight: bold;
+}
+
+.form-control {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-color: #ebecf2;
+  height: 50px;
+  font-family: "Open Sans";
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.ud-panel-login .sign-up-div {
+  background: #f6f8fc;
+  margin: 25px -40px 0;
+  padding: 15px 0;
+}
+
+.ud-panel-login .info-signup,
+.ud-panel-login .sign-up-div {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Open Sans";
+}
+
+.ud-panel-login .sign-up-div a {
+  font-weight: bold;
+}
