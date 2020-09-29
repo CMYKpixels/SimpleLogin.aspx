@@ -1,16 +1,17 @@
-.ghost {
+.inner {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 80px;
-    height: 80px;
+    width: 110px;
+    height: 110px;
     box-sizing: border-box;
-    /*border-radius: 50%;*/
-    /*background-color: white;*/
-    /*border: 10px solid #F1C40F;*/
-    /*box-shadow: 0 0 10px white, 0 0 15px white, 0 0 20px white, 0 0 40px #F1C40F, 0 0 55px #F1C40F;*/
+    filter: drop-shadow(0 0 10px white);
+    filter: drop-shadow(0 0 15px white);
+    filter: drop-shadow(0 0 20px white);
+    filter: drop-shadow(0 0 40px #F1C40F);
     transform: translateX(-50%) translateY(-50%);
-    background: url(/bat.svg) no-repeat center fixed;
+    background: url(/laughing-bat.svg) no-repeat center fixed;
+    z-index: 1;
   }
 
 
@@ -22,7 +23,7 @@
   border: solid black 0px;
   z-index: -1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .candles_sprite > .candle {
 
@@ -31,8 +32,8 @@
   border: solid black 0px;
   width: 400px;
   height: 200px;
-  top: 50%;
-  left: 50%;
+  top: 30%;
+  left: 55%;
   transform: translate(-50%, -50%) scale(.5);
 }
 .candles_sprite > .candle > .candle-1,

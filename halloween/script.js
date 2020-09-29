@@ -8,8 +8,8 @@ $(function() {
     
     // events
     $(document).click(function(e) {
-        if ($('.ghost').length <= 0) {
-            $('body').prepend('<div class="ghost"></div>')
+        if ($('.inner').length <= 0) {
+            $('body').prepend('<div class="inner"></div>')
             innerDivTracking()
         } 
             $(document).click(function() {
@@ -21,7 +21,7 @@ $(function() {
     $(document).mousemove(function(e) {
         
             var mousePos = getMousePos(e)
-            TweenMax.to($('.ghost'), dur, {left: mousePos[0], top: mousePos[1]})
+            TweenMax.to($('.inner'), dur, {left: mousePos[0], top: mousePos[1]})
         
     })  
     // end:events
