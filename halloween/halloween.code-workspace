@@ -1,9 +1,0 @@
-{
-	"folders": [
-		{
-			"uri": "vscode-remote://wsl+ubuntu/mnt/c/Users/Julien/Documents/UwAmp/www/SimpleLogin/halloween"
-		}
-	],
-	"remoteAuthority": "wsl+ubuntu",
-	"settings": {}
-}
