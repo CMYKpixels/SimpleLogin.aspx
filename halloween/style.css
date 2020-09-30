@@ -14,7 +14,7 @@
   -webkit-filter: drop-shadow(0 0 40px #f1c40f);
           filter: drop-shadow(0 0 40px #f1c40f);
   transform: translateX(-50%) translateY(-50%);
-  background: url(/laughing-bat.svg) no-repeat center fixed;
+  background: url(/laughing-bat.svg) no-repeat center scroll;
   z-index: 1;
 }
 
