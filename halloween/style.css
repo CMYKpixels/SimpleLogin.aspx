@@ -1,3 +1,263 @@
+body {
+  overflow: hidden;
+}
+
+body label,
+body select {
+  font-weight: normal;
+  font-family: "Open Sans";
+  color: #34495e;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+  outline: none !important;
+  text-decoration: none;
+}
+
+a,
+.nav-tabs > li > a,
+.nav-tabs > li.link-new-cal > a {
+  color: rgba(77, 124, 254, 1);
+}
+
+input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+input::-moz-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+input:-ms-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+input::-ms-input-placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-weight: normal;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+
+.m-autocenter {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.v-align-middle {
+  vertical-align: middle;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.m-left-5 {
+  margin-left: 5px;
+}
+
+.m-left-10 {
+  margin-left: 10px;
+}
+
+.m-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.m-bottom-25 {
+  margin-bottom: 25px !important;
+}
+
+.m-top-10 {
+  margin-top: 10px;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+.login-body {
+  background: #fff url(https://static.elloha.com/elloha/Images/bg.jpg?v=4) no-repeat center fixed;
+  background-size: cover;
+  color: #34495e;
+}
+
+.login-top-bar {
+  padding: 15px;
+  position: relative;
+}
+
+.login-top-bar-w {
+  height: 100px;
+  border-bottom: 1px solid rgba(221, 221, 221, 0.2);
+}
+
+.login-top-bar > a.btn-myc {
+  border-radius: 0;
+  margin-top: 10px;
+  position: absolute;
+  right: 15px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+}
+
+.btn-success,
+.btn-success:focus,
+.btn-success:hover,
+.btn-success[disabled] {
+  background: #00a46d;
+  border-radius: 0;
+}
+
+.btn-myc,
+.btn-myc:hover,
+.btn-myc:focus {
+  background: none;
+  border: 2px solid #c5cde2;
+  color: #fff;
+}
+
+.btn,
+.btn:hover {
+  border-color: transparent;
+  box-shadow: none;
+  box-shadow: none;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  text-shadow: none;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.master-top-bar-logo,
+.master-top-bar-logo-wizard {
+  width: 200px;
+  height: 70px;
+  background: url(https://static.elloha.com/elloha/Images/logo-elloha-fullwhite.png?v=4)
+    center center no-repeat;
+  background-size: 90%;
+}
+
+.ud-panel-login {
+  position: relative;
+  background: #f6f8fc;
+  display: block;
+  width: 455px;
+  margin: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 11%;
+  z-index: 5;
+}
+
+.ud-panel-login > div {
+  padding: 35px 40px 0;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.login-title {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: Bold;
+  text-transform: uppercase;
+}
+
+.login-flag-list {
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.login-flag-list a {
+  color: #34495e;
+  font-size: 0.6em;
+}
+
+.login-flag-list img {
+  height: 18px;
+}
+
+.login-label-col {
+  height: 40px;
+  padding-top: 9px;
+  padding-right: 0;
+  text-align: left;
+  font-family: "open sans";
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+  border-color: #ebecf2;
+  height: 50px;
+  font-family: "Open Sans";
+  box-shadow: none;
+}
+
+.ud-panel-login .sign-up-div {
+  background: #f6f8fc;
+  margin: 25px -40px 0;
+  padding: 15px 0;
+}
+
+.ud-panel-login .info-signup,
+.ud-panel-login .sign-up-div {
+  text-align: center;
+  font-size: 13px;
+  font-family: "Open Sans";
+}
+
+.ud-panel-login .sign-up-div a {
+  font-weight: bold;
+}
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
+.login-body{
+  background: rgb(52, 40, 105);
+}
+/*.all_hollows_eve:not(.login-body){
+  display: none;
+}*/
+/********************************************************************/
+/********************************************************************/
+/********************************************************************/
 .inner {
   position: absolute;
   top: 50%;
@@ -6,39 +266,127 @@
   height: 110px;
   box-sizing: border-box;
   -webkit-filter: drop-shadow(0 0 10px white);
-          filter: drop-shadow(0 0 10px white);
+  filter: drop-shadow(0 0 10px white);
   -webkit-filter: drop-shadow(0 0 15px white);
-          filter: drop-shadow(0 0 15px white);
+  filter: drop-shadow(0 0 15px white);
   -webkit-filter: drop-shadow(0 0 20px white);
-          filter: drop-shadow(0 0 20px white);
+  filter: drop-shadow(0 0 20px white);
   -webkit-filter: drop-shadow(0 0 40px #f1c40f);
-          filter: drop-shadow(0 0 40px #f1c40f);
+  filter: drop-shadow(0 0 40px #f1c40f);
   transform: translateX(-50%) translateY(-50%);
-  background: url(/laughing-bat.svg) no-repeat center scroll;
-  z-index: 1;
+  background: url(https://cmykhosting.s3.eu-west-3.amazonaws.com/media_remote_hosting/SimpleLogin/halloween/laughing-bat.svg)
+    no-repeat center scroll;
+  z-index: 6;
+  overflow: hidden;
+}
+
+.mist {
+  display: block;
+  background-image: url(https://cmykhosting.s3.eu-west-3.amazonaws.com/media_remote_hosting/SimpleLogin/halloween/mist.png);
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 2120px;
+  height: 1081px;
+  z-index: -1;
+}
+.manor {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.fog {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  animation: mist 40s ease-in-out infinite alternate;
+}
+.fog::before {
+  content: "";
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cloud_left {
+  background: url(https://cmykhosting.s3.eu-west-3.amazonaws.com/media_remote_hosting/SimpleLogin/halloween/fog_cloud_left.svg)
+    no-repeat center scroll;
+  left: -55%;
+  top: 0;
+  animation: fog_cloud 55s ease-in infinite alternate;
+}
+.cloud_center {
+  background: url(https://cmykhosting.s3.eu-west-3.amazonaws.com/media_remote_hosting/SimpleLogin/halloween/fog_cloud_center.svg)
+    no-repeat center scroll;
+  top: 0;
+  left: 0;
+  animation: fog_cloud 25s ease-out infinite alternate-reverse;
+}
+
+.cloud-right {
+  background: url(https://cmykhosting.s3.eu-west-3.amazonaws.com/media_remote_hosting/SimpleLogin/halloween/fog_cloud_right.svg)
+    no-repeat center scroll;
+  top: 30.5%;
+  left: 15%;
+  animation: fog_cloud 55s ease-in infinite alternate;
+}
+
+@keyframes mist {
+  0% {
+    margin-left: 100px;
+  }
+  25% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 50px;
+  }
+  75% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+
+@keyframes fog_cloud {
+  0% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: 150px;
+  }
+  50% {
+    margin-left: 0;
+  }
+  75% {
+    margin-left: 150px;
+  }
+  100% {
+    margin-left: 0;
+  }
 }
 
 .candles_sprite {
-  position: absolute;
-  width: 100vw;
-  height: 400px;
+  position: relative;
   border: solid black 0px;
   z-index: -1;
-  display: flex;
-  justify-content: flex-start;
 }
-
 .candles_sprite > .candle {
   background-color: transparent;
   position: absolute;
   border: solid black 0px;
   width: 400px;
   height: 200px;
-  top: 30%;
   left: 55%;
   transform: translate(-50%, -50%) scale(0.5);
+  margin-top: -40px;
 }
-
 .candles_sprite > .candle > .candle-1,
 .candles_sprite > .candle > .candle-2,
 .candles_sprite > .candle > .candle-3 {
@@ -50,7 +398,6 @@
   left: 50%;
   transform: translate(-50%, 0%);
 }
-
 .candles_sprite > .candle > .candle-1 > .wax,
 .candles_sprite > .candle > .candle-2 > .wax,
 .candles_sprite > .candle > .candle-3 > .wax {
@@ -63,7 +410,6 @@
   background-color: #ecda96;
   border-radius: 5em;
 }
-
 .candles_sprite > .candle > .candle-1 > .wax:before,
 .candles_sprite > .candle > .candle-2 > .wax:before,
 .candles_sprite > .candle > .candle-3 > .wax:before {
@@ -76,7 +422,6 @@
   right: 0;
   box-shadow: -35px 10px 0 #ecda96;
 }
-
 .candles_sprite > .candle > .candle-1 > .wax:after,
 .candles_sprite > .candle > .candle-2 > .wax:after,
 .candles_sprite > .candle > .candle-3 > .wax:after {
@@ -90,7 +435,6 @@
   top: 30px;
   box-shadow: 0 -10px 0 #ecda96;
 }
-
 .candles_sprite > .candle > .candle-1 > .flame,
 .candles_sprite > .candle > .candle-2 > .flame,
 .candles_sprite > .candle > .candle-3 > .flame {
@@ -99,9 +443,8 @@
   left: 50%;
   transform: translate(-50%, 0%);
   -webkit-animation: flame 5s infinite ease;
-          animation: flame 5s infinite ease;
+  animation: flame 5s infinite ease;
 }
-
 .candles_sprite > .candle > .candle-1 > .flame:after,
 .candles_sprite > .candle > .candle-1 > .flame:before,
 .candles_sprite > .candle > .candle-2 > .flame:after,
@@ -115,7 +458,6 @@
   bottom: 0;
   border-radius: 0 5em 5em 5em;
 }
-
 .candles_sprite > .candle > .candle-1 > .flame:before,
 .candles_sprite > .candle > .candle-2 > .flame:before,
 .candles_sprite > .candle > .candle-3 > .flame:before {
@@ -124,7 +466,6 @@
   height: 70px;
   transform: translate(-60px, 0%) rotate(45deg);
 }
-
 .candles_sprite > .candle > .candle-1 > .flame:after,
 .candles_sprite > .candle > .candle-2 > .flame:after,
 .candles_sprite > .candle > .candle-3 > .flame:after {
@@ -133,14 +474,12 @@
   height: 45px;
   transform: translate(-40px, 4px) rotate(45deg);
 }
-
 .candles_sprite > .candle > .candle-1 {
   height: 150px;
   left: 15%;
   transform: translate(-50%, 0%);
   background: linear-gradient(to right, #ec8f14, #ec8f14 35%, #f9a21f 35%);
 }
-
 .candles_sprite > .candle > .candle-1:after {
   position: absolute;
   content: "";
@@ -151,26 +490,22 @@
   top: 80px;
   right: 10px;
 }
-
 .candles_sprite > .candle > .candle-1 > .wax:before {
   border-radius: 5em 0 5em 5em;
   left: 0;
   top: 10px;
   box-shadow: 35px -10px 0 #ecda96;
 }
-
 .candles_sprite > .candle > .candle-1 > .wax:after {
   left: 25px;
   background-color: #ec8f14;
 }
-
 .candles_sprite > .candle > .candle-3 {
   height: 170px;
   left: 85%;
   transform: translate(-50%, 0%);
   background: linear-gradient(to right, #f9a21f, #f9a21f 65%, #ec8f14 65%);
 }
-
 .candles_sprite > .candle > .candle-3:after {
   position: absolute;
   content: "";
@@ -181,17 +516,14 @@
   top: 70px;
   left: 10px;
 }
-
 .candles_sprite > .candle > .candle-3 > .wax:before {
   border-radius: 5em 0 5em 5em;
   left: 0;
   box-shadow: 35px 10px 0 #ecda96;
 }
-
 .candles_sprite > .candle > .candle-3 > .wax:after {
   left: 25px;
 }
-
 @-webkit-keyframes flame {
   0%,
   20%,
@@ -216,7 +548,6 @@
     transform: translate(-50%, 0%) scale(1) rotate(-20deg);
   }
 }
-
 @keyframes flame {
   0%,
   20%,
@@ -250,9 +581,9 @@
   width: 60rem;
   bottom: -6.25rem;
   left: -20px;
-  z-index: -1;
+  z-index: 1;
+  overflow: hidden;
 }
-
 .witch {
   bottom: 0;
   height: inherit;
@@ -260,9 +591,8 @@
   position: absolute;
   width: 25rem;
 }
-
 .hair {
-  background: #ff5a27;
+  background: #ff274b;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
   height: 8rem;
@@ -271,7 +601,6 @@
   top: 11rem;
   width: 12rem;
 }
-
 .head {
   height: 6rem;
   background: #f5dabf;
@@ -282,7 +611,6 @@
   top: 12rem;
   width: 8rem;
 }
-
 .head-copy {
   background: #f5dabf;
   border-bottom-left-radius: 10rem;
@@ -292,7 +620,6 @@
   width: 100%;
   z-index: 3;
 }
-
 .eye {
   background: #2c2c2c;
   border-radius: 50%;
@@ -302,15 +629,12 @@
   width: 1.5rem;
   z-index: 3;
 }
-
 .eye.-left {
   left: 1.5rem;
 }
-
 .eye.-right {
   right: 1.5rem;
 }
-
 .pupil {
   background: #fff;
   border-radius: 50%;
@@ -320,7 +644,6 @@
   top: 0.2rem;
   width: 0.5rem;
 }
-
 .mouth {
   background: #2c2c2c;
   border-bottom-right-radius: 3rem;
@@ -333,7 +656,6 @@
   overflow: hidden;
   z-index: 3;
 }
-
 .tongue {
   background: #eb5454;
   border-radius: 50%;
@@ -341,7 +663,6 @@
   position: relative;
   top: 0.5rem;
 }
-
 .cheek {
   background: #fcaec5;
   border-radius: 50%;
@@ -351,15 +672,12 @@
   width: 1rem;
   z-index: 3;
 }
-
 .cheek.-left {
   left: 1rem;
 }
-
 .cheek.-right {
   right: 1rem;
 }
-
 .ear {
   background: #edc196;
   border-radius: 50%;
@@ -368,15 +686,12 @@
   top: 0.5rem;
   width: 2rem;
 }
-
 .ear.-left {
   left: -1rem;
 }
-
 .ear.-right {
   right: -1rem;
 }
-
 .neck {
   background: #edc196;
   border-bottom-left-radius: 1.5rem;
@@ -388,7 +703,6 @@
   width: 1.75rem;
   z-index: 2;
 }
-
 .hat {
   background-color: #2c2c2c;
   border-top-right-radius: 30%;
@@ -400,7 +714,6 @@
   width: 10rem;
   z-index: -1;
 }
-
 .hat-brim {
   background: #2c2c2c;
   border-radius: 0.5rem;
@@ -410,7 +723,6 @@
   top: 10rem;
   width: 20rem;
 }
-
 .arm {
   background: #2c2c2c;
   border-bottom-left-radius: 10rem;
@@ -420,15 +732,12 @@
   top: 19rem;
   width: 7rem;
 }
-
 .arm.-left {
   left: 3rem;
 }
-
 .arm.-right {
   right: 3rem;
 }
-
 .hand {
   background: #f5dabf;
   border-radius: 50%;
@@ -437,15 +746,12 @@
   top: -0.75rem;
   width: 2.25rem;
 }
-
 .hand.-left {
   left: -1rem;
 }
-
 .hand.-right {
   right: -1rem;
 }
-
 .finger {
   background: #f5dabf;
   border-top-left-radius: 0.75rem;
@@ -455,34 +761,28 @@
   top: -1rem;
   width: 0.75rem;
 }
-
 .finger.-left {
   left: 1.25rem;
 }
-
 .finger.-right {
   right: 1.25rem;
 }
-
 .finger.-skew-left {
   transform: rotate(315deg);
 }
-
 .finger.-skew-right {
   transform: rotate(44deg);
 }
-
 .body {
   background: #2c2c2c;
   -webkit-clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
-          clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
+  clip-path: polygon(26% 34%, 72% 34%, 100% 100%, 0% 100%);
   height: 18rem;
   left: 6rem;
   position: absolute;
   top: 12.88rem;
   width: 12.5rem;
 }
-
 .leg {
   background: #2c2c2c;
   height: 2.75rem;
@@ -491,7 +791,6 @@
   top: 30.9rem;
   width: 1.5rem;
 }
-
 .foot {
   background: #000;
   border-top-left-radius: 0.5rem;
@@ -501,7 +800,6 @@
   top: 2rem;
   width: 3rem;
 }
-
 .cauldron {
   height: 10.5rem;
   left: 19rem;
@@ -510,7 +808,6 @@
   top: 23.25rem;
   width: 14rem;
 }
-
 .cauldron-body {
   background: #2d4158;
   border-radius: 50%;
@@ -520,20 +817,17 @@
   width: 14rem;
   z-index: 4;
 }
-
 .cauldron-brim {
   background: #2d4158;
   height: 1.5rem;
   position: absolute;
   z-index: 4;
 }
-
 .cauldron-brim.-top {
   border-radius: 1.5rem;
   top: 0rem;
   width: 100%;
 }
-
 .cauldron-brim.-bottom {
   border-radius: 50%;
   height: 2rem;
@@ -541,7 +835,6 @@
   top: 0.5rem;
   width: 90%;
 }
-
 .cauldron-leg {
   background-color: #2d4158;
   border-top-right-radius: 50%;
@@ -551,77 +844,65 @@
   position: absolute;
   width: 2rem;
 }
-
 .cauldron-leg.-left {
   left: 1rem;
   transform: rotate(160deg) skewX(-30deg) scale(1, 0.466);
 }
-
 .cauldron-leg.-right {
   right: 1rem;
   transform: rotate(120deg) skewX(-30deg) scale(1, 0.466);
 }
-
 .cauldron-leg.-small {
   right: 3rem;
   transform: rotate(120deg) skewX(-30deg) scale(1, 0.466);
 }
-
 .goo {
   -webkit-animation: goo-bob 1.5s infinite;
-          animation: goo-bob 1.5s infinite;
+  animation: goo-bob 1.5s infinite;
   border-radius: 50%;
   position: absolute;
 }
-
 .goo.-red {
   background: #e85256;
 }
-
 .goo.-green {
   background: #66cc66;
 }
-
 .goo.-r-left {
   height: 5rem;
   right: 30rem;
   top: 21.5rem;
   width: 5rem;
 }
-
 .goo.-r-right {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
   height: 3.5rem;
   right: 28rem;
   top: 22.5rem;
   width: 3.5rem;
 }
-
 .goo.-g-right {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
   height: 4rem;
   left: 22rem;
   top: 22rem;
   width: 4rem;
 }
-
 .goo.-g-left {
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
   height: 2.5rem;
   left: 20.25rem;
   top: 22.5rem;
   width: 2.5rem;
 }
-
 .goo.-bottom-left {
   bottom: 0;
   height: 3rem;
   width: 3rem;
 }
-
 .bottom-goo {
   position: absolute;
   border-top-left-radius: 4rem;
@@ -629,21 +910,17 @@
   bottom: 0;
   z-index: 4;
 }
-
 .bottom-goo.-green {
   background: #66cc66;
 }
-
 .bottom-goo.-red {
   background: #e85256;
 }
-
 .bottom-goo.-g-right {
   height: 2rem;
   left: 2.5rem;
   width: 4rem;
 }
-
 .bottom-goo.-g-left {
   border-bottom-left-radius: 4rem;
   height: 0.55rem;
@@ -651,13 +928,11 @@
   left: 17rem;
   width: 7rem;
 }
-
 .bottom-goo.-r-middle {
   height: 1.5rem;
   left: 5.8rem;
   width: 3rem;
 }
-
 .bottom-goo.-r-line {
   border-bottom-left-radius: 4rem;
   border-bottom-right-radius: 4rem;
@@ -666,7 +941,6 @@
   left: 24.25rem;
   width: 5rem;
 }
-
 .goo-drip {
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
@@ -674,45 +948,38 @@
   width: 1.25rem;
   z-index: 4;
 }
-
 .goo-drip.-green {
   -webkit-animation: drip-green 2s ease-in infinite;
-          animation: drip-green 2s ease-in infinite;
+  animation: drip-green 2s ease-in infinite;
   background: #66cc66;
   height: 1.5rem;
   left: 4.5rem;
 }
-
 .goo-drip.-red {
   background: #e85256;
 }
-
 .goo-drip.-right {
   height: 3.5rem;
   right: 2.5rem;
 }
-
 .goo-drip.-left {
   -webkit-animation: drip-red 2s ease-in infinite;
-          animation: drip-red 2s ease-in infinite;
+  animation: drip-red 2s ease-in infinite;
   height: 2.5rem;
   right: 4.5rem;
 }
-
 .goo-drop {
   border-radius: 50%;
   position: absolute;
 }
-
 .goo-drop.-green {
   -webkit-animation: drop 1.5s ease-in infinite;
-          animation: drop 1.5s ease-in infinite;
+  animation: drop 1.5s ease-in infinite;
   background: #66cc66;
   height: 1rem;
   top: 0rem;
   width: 1.2rem;
 }
-
 .goo-drop.-red {
   background: #e85256;
   height: 1.75rem;
@@ -720,58 +987,51 @@
   right: 0;
   width: 1.2rem;
 }
-
 .goo-drop.-left {
   -webkit-animation: drop 1.5s ease-in infinite;
-          animation: drop 1.5s ease-in infinite;
+  animation: drop 1.5s ease-in infinite;
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   top: 0rem;
 }
-
 .bubble {
   -webkit-animation: bubble-float 5s infinite, disappear 5s infinite;
-          animation: bubble-float 5s infinite, disappear 5s infinite;
+  animation: bubble-float 5s infinite, disappear 5s infinite;
   border-radius: 50%;
   position: absolute;
   top: 25rem;
   z-index: 3;
 }
-
 .bubble.-green {
   background: #66cc66;
   height: 1.5rem;
   left: 23rem;
   width: 1.5rem;
 }
-
 .bubble.-green-2 {
   -webkit-animation-delay: 3.5s;
-          animation-delay: 3.5s;
+  animation-delay: 3.5s;
   background: #66cc66;
   height: 0.75rem;
   left: 24rem;
   width: 0.75rem;
 }
-
 .bubble.-yellow {
   -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-delay: 1s;
   background: #ffd267;
   height: 3rem;
   left: 24.5rem;
   width: 3rem;
 }
-
 .bubble.-red {
   -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-delay: 2s;
   background: #e85256;
   height: 1rem;
   left: 27.5rem;
   width: 1rem;
 }
-
 .lone-eye {
   background: #f6f3e0;
   border-radius: 50%;
@@ -782,7 +1042,6 @@
   transform: rotate(45deg);
   width: 2rem;
 }
-
 .lone-eye__color {
   background: #61ce61;
   border-radius: 50%;
@@ -970,7 +1229,6 @@
   top: 55px;
   left: 35px;
 }
-
 .moon_sprite {
   height: 400px;
   width: 600px;
@@ -982,7 +1240,7 @@
   width: 90px;
   height: 42px;
   -webkit-animation: clouds 40s infinite;
-          animation: clouds 40s infinite;
+  animation: clouds 40s infinite;
   margin-left: 0;
 }
 
@@ -1089,250 +1347,4 @@
   100% {
     margin-left: 0;
   }
-}
-
-/* Login Modal*/
-.m-autocenter {
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.d-block {
-  display: block;
-}
-
-.d-inline-block {
-  display: inline-block;
-}
-
-.v-align-middle {
-  vertical-align: middle;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.pull-right {
-  float: right !important;
-}
-
-.no-margin-bottom {
-  margin-bottom: 0 !important;
-}
-
-.m-left-5 {
-  margin-left: 5px;
-}
-
-.m-left-10 {
-  margin-left: 10px;
-}
-
-.m-bottom-20 {
-  margin-bottom: 20px;
-}
-
-.m-bottom-25 {
-  margin-bottom: 25px !important;
-}
-
-.m-top-10 {
-  margin-top: 10px;
-}
-
-body {
-  background: #342869 url(/2x/manor_alt@2x.png) no-repeat;
-  background-position: bottom;
-  background-size: cover;
-  background-attachment: fixed;
-  background-origin: border-box;
-  color: #34495e;
-  font-family: Montserrat;
-  font-size: 16px;
-  text-rendering: optimizeLegibility;
-  line-height: 1.428571429;
-}
-
-body label,
-body select {
-  font-weight: normal;
-  font-family: "Open Sans";
-  color: #34495e;
-}
-
-a,
-a:visited,
-a:focus,
-a:active,
-a:hover {
-  outline: none !important;
-  text-decoration: none;
-}
-
-a,
-.nav-tabs > li > a,
-.nav-tabs > li.link-new-cal > a {
-  color: rgba(77, 124, 254, 1);
-}
-
-input::-webkit-input-placeholder {
-  font-style: italic;
-  font-weight: normal;
-}
-
-input::-moz-placeholder {
-  font-style: italic;
-  font-weight: normal;
-}
-
-input:-ms-input-placeholder {
-  font-style: italic;
-  font-weight: normal;
-}
-
-input::-ms-input-placeholder {
-  font-style: italic;
-  font-weight: normal;
-}
-
-input::placeholder {
-  font-style: italic;
-  font-weight: normal;
-}
-
-.login-top-bar {
-  padding: 15px;
-  position: relative;
-}
-
-.login-top-bar-w {
-  height: 100px;
-  border-bottom: 1px solid rgba(221, 221, 221, 0.2);
-}
-
-.login-top-bar > a.btn-myc {
-  border-radius: 0;
-  margin-top: 10px;
-  position: absolute;
-  right: 15px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 15px;
-}
-
-.btn-success,
-.btn-success:focus,
-.btn-success:hover,
-.btn-success[disabled] {
-  background: #00a46d;
-  border-radius: 0;
-}
-
-.btn-myc,
-.btn-myc:hover,
-.btn-myc:focus {
-  background: none;
-  border: 2px solid #c5cde2;
-  color: #fff;
-}
-
-.btn,
-.btn:hover {
-  border-color: transparent;
-  box-shadow: none;
-  box-shadow: none;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 600;
-  text-shadow: none;
-  height: 50px;
-  line-height: 50px;
-  padding: 0 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.master-top-bar-logo,
-.master-top-bar-logo-wizard {
-  width: 200px;
-  height: 70px;
-  background: url(https://static.elloha.com/elloha/Images/logo-elloha-fullwhite.png?v=4)
-    center center no-repeat;
-  background-size: 90%;
-}
-
-.ud-panel-login {
-  background: #f6f8fc;
-  display: block;
-  width: 455px;
-  margin: auto;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-  margin-top: 11%;
-}
-
-.ud-panel-login > div {
-  padding: 35px 40px 0;
-}
-
-.bg-white {
-  background-color: #fff;
-}
-
-.login-title {
-  font-size: 22px;
-  margin-bottom: 25px;
-  font-weight: Bold;
-  text-transform: uppercase;
-}
-
-.login-flag-list {
-  line-height: 25px;
-  cursor: pointer;
-}
-
-.login-flag-list a {
-  color: #34495e;
-  font-size: 0.6em;
-}
-
-.login-flag-list img {
-  height: 18px;
-}
-
-.login-label-col {
-  height: 40px;
-  padding-top: 9px;
-  padding-right: 0;
-  text-align: left;
-  font-family: "open sans";
-  font-weight: bold;
-}
-
-.form-control {
-  border-radius: 0;
-  border-color: #ebecf2;
-  height: 50px;
-  font-family: "Open Sans";
-  box-shadow: none;
-}
-
-.ud-panel-login .sign-up-div {
-  background: #f6f8fc;
-  margin: 25px -40px 0;
-  padding: 15px 0;
-}
-
-.ud-panel-login .info-signup,
-.ud-panel-login .sign-up-div {
-  text-align: center;
-  font-size: 13px;
-  font-family: "Open Sans";
-}
-
-.ud-panel-login .sign-up-div a {
-  font-weight: bold;
 }
