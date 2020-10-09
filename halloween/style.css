@@ -252,7 +252,8 @@ input::placeholder {
 .login-body{
   background: rgb(52, 40, 105);
 }
-/*.all_hollows_eve:not(.login-body){
+/*
+.all_hollows_eve:not(.login-body){
   display: none;
 }*/
 /********************************************************************/

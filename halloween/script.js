@@ -1,5 +1,5 @@
 $(function() {
-    var dur = 1
+    var dur = 2
     
     function getMousePos(event) {
         return [event.clientX, event.clientY]

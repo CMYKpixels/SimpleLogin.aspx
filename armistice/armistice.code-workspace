@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://wsl+ubuntu/mnt/c/Users/Julien/Documents/UwAmp/www/SimpleLogin/armistice"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
